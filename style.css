@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #1c1c1c;
+    color: #00ffcc;
+}
+
+nav {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #00ffcc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #2e2e2e;
+}
+
+h2 {
+    color: #00ffcc;
+}
+
+/* GitHub Button */
+#github-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ffcc;
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#github-btn:hover {
+    background-color: #00e6b8;
+}
+
+/* Futuristic Image Styling */
+.tech-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1c1c1c;
+    color: #888;
+}
