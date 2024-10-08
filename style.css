@@ -77,3 +77,10 @@ footer {
     background-color: #1c1c1c;
     color: #888;
 }
+
+.authors {
+    font-style: italic;
+    color: #cccccc;
+    font-size: 1em;
+    margin-top: 5px;
+}
