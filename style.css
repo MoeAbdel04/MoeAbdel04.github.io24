@@ -64,11 +64,19 @@ h2 {
 
 /* Futuristic Image Styling */
 .tech-image {
-    width: 100%;
-    max-width: 600px;
+    width: 50%; /* Set to 50% of the container's width */
+    max-width: 500px; /* Ensures it doesn’t exceed 500px on larger screens */
     display: block;
     margin: 20px auto;
     border-radius: 8px;
+}
+
+/* Author Styling */
+.authors {
+    font-style: italic;
+    color: #cccccc;
+    font-size: 1em;
+    margin-top: 5px;
 }
 
 footer {
@@ -76,11 +84,4 @@ footer {
     padding: 10px;
     background-color: #1c1c1c;
     color: #888;
-}
-
-.authors {
-    font-style: italic;
-    color: #cccccc;
-    font-size: 1em;
-    margin-top: 5px;
 }
