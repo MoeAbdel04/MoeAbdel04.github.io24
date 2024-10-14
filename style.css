@@ -103,6 +103,21 @@ section p strong {
     font-weight: bold;
 }
 
+/* Back Link Styling */
+.back-link {
+    display: inline-block;
+    margin: 20px;
+    font-size: 1em;
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #ffffff;
+}
+
 /* GitHub Button */
 #github-btn {
     display: inline-block;
