@@ -31,7 +31,7 @@ header p {
 /* Header for Brief Page */
 .header-brief {
     background-color: #00aaff;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -77,36 +77,29 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-/* Section Styling */
+/* Section Styling for Brief Page */
 section {
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
-    background-color: #2e2e2e;
+    background-color: #333333; /* Dark background for better contrast */
+    color: #e0e0e0; /* Light text color for readability */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     animation: fadeInUp 1s ease-out;
     transition: transform 0.3s ease;
 }
 
-section:hover {
-    transform: scale(1.02);
-}
-
 section h2 {
-    color: #00ffcc;
+    color: #00ccff; /* Bright blue color for headers */
     font-size: 1.8em;
     margin-bottom: 10px;
     border-bottom: 2px solid #00aaff;
     padding-bottom: 5px;
 }
 
-section p {
-    margin: 10px 0;
-    line-height: 1.6;
-}
-
-section strong {
-    color: #333;
+/* Improved readability for labels */
+section p strong {
+    color: #00ffcc; /* Bright color for labels */
     font-weight: bold;
 }
 
